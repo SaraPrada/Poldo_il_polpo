@@ -17,17 +17,9 @@ La marionetta in questione ha come riferimento progettuale il polpo. Nel progett
 [<img src="doc/cards.gif" width="500" alt="Magic trick">]()
 
 ## Design dell'interfaccia e dell'interazione
-“Poldo” il polpo e il suo contesto hanno una grafica molto astratta e
-geometrica composta da rettangoli e cerchi realizzati interamente
-attraverso i codici. La scelta di utilizzare forme rigide per rappre-
-sentare forme organiche è stata fatta per comunicare la presenza
-del polpo creando però una forma più grafica e meno illustrata. I co-
-lori scelti sono associati al contesto: azzuro per il mare. In partico-
-lare, il magenta è stato scelto per far risaltare il protagonista dallo
-sfondo. La modalità di interazione è data dal tracking dei cinque
-polpastrelli delle dita della mano destra (keypoints 4, 8, 12, 16, 20)
-che fungono da pupille del polpo. I movimenti delle pupille rendono
-il polpo un personaggio buffo, divertente e curioso.
+“Poldo” il polpo e il suo contesto hanno una grafica molto astratta e geometrica composta da rettangoli e cerchi realizzati interamente attraverso i codici. La scelta di utilizzare forme rigide per rappresentare forme organiche è stata fatta per comunicare la presenza
+del polpo creando però una forma più grafica e meno illustrata. I colori scelti sono associati al contesto: azzuro per il mare. In particolare, il magenta è stato scelto per far risaltare il protagonista dallo sfondo. La modalità di interazione è data dal tracking dei cinque
+polpastrelli delle dita della mano destra (keypoints 4, 8, 12, 16, 20) che fungono da pupille del polpo. I movimenti delle pupille rendono il polpo un personaggio buffo, divertente e curioso.
 
 ## Tecnologia usata
-Nunc consequat interdum varius sit amet mattis vulputate. Vehicula ipsum a arcu cursus vitae congue. Odio ut sem nulla pharetra. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Lacus sed turpis tincidunt id aliquet risus feugiat.
+La difficoltà tecnica di questo progetto consiste nel limitare il movimento delle pupille all’interno degli occhi. Il problema è stato risolto con una formula matematica applicata ad ogni pupilla che calcola la differenza tra la posizione X e Y degli occhi rispetto alla posizione X e Y delle dita, per poi trovare la distanza massima attraverso il teorema di pitagora e la distanza minima e infine definire le due costanti X e Y delle pupille.
