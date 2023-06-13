@@ -73,4 +73,6 @@ random che è stata impiegata per le bolle: cambiano la loro posizione ogni volt
 
 Un ipotetico target del progetto sono i bambini, in quanto lo stile d’illustrazione, il protagonista, il suo carattere e l’interazione possono persuaderli molto. Qualche esempio di contesto d’uso potrebbero essere musei interattivi e sale giochi per bambini oppure in campo medico, all’interno di reparti pediatrici, in modo da distrarre i piccoli ricoverati dal contesto ospedaliero e dalla loro situazione clinica.
 
+## Immagini e video
+
 [<img src="immagini-video/1.png" width="300" alt="Foto del progetto">]()
