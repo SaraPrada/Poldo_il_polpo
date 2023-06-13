@@ -44,3 +44,27 @@ La difficoltà tecnica di questo progetto consiste nel limitare il movimento del
 		ellipse(pupillaX, pupillaY, 15 , 15 )
 
 ```
+Un’altra caratteristica è la funzione
+random che è stata impiegata per le bolle: cambiano la loro posizione ogni volta che la pagina viene ricaricata.
+
+```JavaScript
+    for(let x = 0; x<= n_bolle; x++) {
+		posx = random(width)
+		posy = random(height)
+
+		bolle.push(posx,posy)
+		console.log(posx,posy)
+
+	}
+	console.log(bolle)
+
+
+	for(let x = 0; x<= bolle.length; x++) {
+		movex = bolle[x] 
+		movey = bolle[x + 1] 
+		fill (187, 241, 255)
+		ellipse (movex, bolle[x + 1], 20, 20)
+		fill (255)
+		ellipse(movex + 5, bolle[x + 1] + 5, 5, 5)
+	}
+```
