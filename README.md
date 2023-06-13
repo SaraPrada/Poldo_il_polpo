@@ -76,3 +76,7 @@ Un ipotetico target del progetto sono i bambini, in quanto lo stile d’illustra
 ## Immagini e video
 
 [<img src="immagini-video/1.png" width="300" alt="Foto del progetto">]()
+
+[<img src="immagini-video/2.png" width="300" alt="Foto del progetto">]()
+
+[<img src="immagini-video/3.png" width="300" alt="Foto del progetto">]()
