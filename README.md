@@ -28,19 +28,19 @@ La difficoltà tecnica di questo progetto consiste nel limitare il movimento del
 
 	//limita pupilla
 
-				//occhio0
-				const occhio0X = 470
-				const occhio0Y = 380
-				const occhio0R = 80
+	//occhio0
+		const occhio0X = 470
+		const occhio0Y = 380
+		const occhio0R = 80
 				
 				
-				const xDiff = mignolo.x - occhio0X
-				const yDiff = mignolo.y - occhio0Y	
-				const distanza = sqrt (xDiff * xDiff + yDiff * yDiff)
-				const d = min (distanza, occhio0R - 15 * 3.5)
-				const pupillaX = occhio0X + xDiff / distanza * d
-				const pupillaY = occhio0Y + yDiff / distanza * d
+		const xDiff = mignolo.x - occhio0X
+		const yDiff = mignolo.y - occhio0Y	
+		const distanza = sqrt (xDiff * xDiff + yDiff * yDiff)
+		const d = min (distanza, occhio0R - 15 * 3.5)
+		const pupillaX = occhio0X + xDiff / distanza * d
+		const pupillaY = occhio0Y + yDiff / distanza * d
 				
-				ellipse(pupillaX, pupillaY, 15 , 15 )
+		ellipse(pupillaX, pupillaY, 15 , 15 )
 
 ```
