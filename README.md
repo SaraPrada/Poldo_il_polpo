@@ -25,8 +25,7 @@ polpastrelli delle dita della mano destra (keypoints 4, 8, 12, 16, 20) che fungo
 La difficoltà tecnica di questo progetto consiste nel limitare il movimento delle pupille all’interno degli occhi. Il problema è stato risolto con una formula matematica applicata ad ogni pupilla che calcola la differenza tra la posizione X e Y degli occhi rispetto alla posizione X e Y delle dita, per poi trovare la distanza massima attraverso il teorema di pitagora e la distanza minima e infine definire le due costanti X e Y delle pupille.
 
 ```JavaScript
-const image = new Image();
-image.onload = () => {
+
 	//limita pupilla
 
 				//occhio0
@@ -43,6 +42,5 @@ image.onload = () => {
 				const pupillaY = occhio0Y + yDiff / distanza * d
 				
 				ellipse(pupillaX, pupillaY, 15 , 15 )
-};
-image.src = url;
+
 ```
