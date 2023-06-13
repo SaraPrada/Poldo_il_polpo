@@ -10,7 +10,7 @@ Autore: Sara Prada
 
 ## Introduzione e tema
 Il progetto consiste nella realizzazione di un sistema di interfaccia che permette di generare una marionetta in realtà aumentata applicata sulla mano. La caratteristica particolare è l’utilizzo di “Media Pipe Hand Landmarker”: un algoritmo che permette alla webcam di riconoscere i punti principali dello scheletro della mano (keypoints) e di capirne i suoi movimenti. L’obiettivo concettuale è quello di realizzare una marionetta digitale che trasmette attraverso la grafica e l’interazione un suo carattere.
-[<img src="immagini-video/1.png" width="300" alt="Foto del progetto">]()
+
 
 ## Riferimenti progettuali
 La marionetta in questione ha come riferimento progettuale il polpo. Nel progetto esso viene ritratto non realisticamente ma è studiato in modo da permettere una miglior interazione con la mano. I tentacoli sono cinque come le dita e su di essi si possono trovare cinque occhi. Per arricchire lo scenario e rimandare l’immaginazione all’habitat naturale dell’animale, nello sfondo sono state inserite delle bolle.
@@ -72,3 +72,5 @@ random che è stata impiegata per le bolle: cambiano la loro posizione ogni volt
 ## Target e contesto d'uso
 
 Un ipotetico target del progetto sono i bambini, in quanto lo stile d’illustrazione, il protagonista, il suo carattere e l’interazione possono persuaderli molto. Qualche esempio di contesto d’uso potrebbero essere musei interattivi e sale giochi per bambini oppure in campo medico, all’interno di reparti pediatrici, in modo da distrarre i piccoli ricoverati dal contesto ospedaliero e dalla loro situazione clinica.
+
+[<img src="immagini-video/1.png" width="300" alt="Foto del progetto">]()
