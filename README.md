@@ -15,7 +15,7 @@ Il progetto consiste nella realizzazione di un sistema di interfaccia che permet
 ## Riferimenti progettuali
 La marionetta in questione ha come riferimento progettuale il polpo. Nel progetto esso viene ritratto non realisticamente ma è studiato in modo da permettere una miglior interazione con la mano. I tentacoli sono cinque come le dita e su di essi si possono trovare cinque occhi. Per arricchire lo scenario e rimandare l’immaginazione all’habitat naturale dell’animale, nello sfondo sono state inserite delle bolle.
 
-[<img src="doc/cards.gif" width="500" alt="Magic trick">]()
+[<img src="src/immagini-video/1.png" width="500" alt="Magic trick">]()
 
 ## Design dell'interfaccia e dell'interazione
 “Poldo” il polpo e il suo contesto hanno una grafica molto astratta e geometrica composta da rettangoli e cerchi realizzati interamente attraverso i codici. La scelta di utilizzare forme rigide per rappresentare forme organiche è stata fatta per comunicare la presenza
