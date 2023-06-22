@@ -77,11 +77,11 @@ Un ipotetico target del progetto sono i bambini, in quanto lo stile d’illustra
 
 ## Immagini e video
 
-[<img src="src/immagini-video/1.png" width="300" alt="Foto del progetto 1">]()
+[<img src="src/immagini-video/1.png" width="100%" alt="Foto del progetto 1">]()
 
-[<img src="src/immagini-video/2.png" width="300" alt="Foto del progetto 2">]()
+[<img src="src/immagini-video/2.png" width="100%" alt="Foto del progetto 2">]()
 
-[<img src="src/immagini-video/3.png" width="300" alt="Foto del progetto 3">]()
+[<img src="src/immagini-video/3.png" width="100%" alt="Foto del progetto 3">]()
 
 https://github.com/SaraPrada/Poldo_il_polpo/assets/126773878/0e919131-6f88-4da6-94a1-ee2bb699715e
 
